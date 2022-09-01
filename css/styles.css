@@ -87,6 +87,10 @@
     background-color: #F5F4FA;
 }
 
+.projects h3 {
+    color: var(--title-text-color);
+}
+
 /* Footer */
 
 .footer {

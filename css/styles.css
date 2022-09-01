@@ -87,6 +87,15 @@
     background-color: #F5F4FA;
 }
 
+.filter {
+    background-color: #F5F4FA;
+}
+
+.filter:hover,
+.filter:focus {
+    background-color: #2196F3;
+}
+
 .projects h3 {
     color: var(--title-text-color);
 }
@@ -120,3 +129,5 @@ color of footer color: rgba(255, 255, 255, 0.6);
 background white #F5F5F5;
 background hero section #2F303A;
 */
+/* bcg portfolio filters grey #F5F4FA;
+bcg portfolio filters blue by hover #2196F3 */

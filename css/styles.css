@@ -7,14 +7,27 @@
 .page {
     background-color: #F5F5F5;
     color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .logo {
     color: var(--accent-color);
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.12;
 }
 
 .studio {
     color: #000000;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.12;
 }
 
 .list {
@@ -25,6 +38,11 @@
 
 .site-nav .link {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -36,6 +54,11 @@
 
 .contacts .link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .contacts .link:hover 
@@ -47,6 +70,13 @@
 
 .hero-title {
     color: #FFFFFF;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero {
@@ -56,6 +86,14 @@
 .btn {
     background-color: var(--accent-color);
     color: #FFFFFF;
+
+    cursor: pointer;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
 
 .contacts .link:hover,
@@ -68,6 +106,25 @@
 .section .section-title,
 .section-team .section-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.photos .title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.photos .photos-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
 .section {
@@ -76,6 +133,17 @@
 
 .advantage .title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.advantage .text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .photos .title {
@@ -89,6 +157,12 @@
 
 .filter {
     background-color: #F5F4FA;
+
+    cursor: pointer;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .filter:hover,
@@ -96,8 +170,19 @@
     background-color: #2196F3;
 }
 
-.projects h3 {
+.projects .projects-title {
     color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .projects-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
 
 .visually-hidden {
@@ -116,6 +201,11 @@
 
 .footer-studio {
     color: #FFFFFF;
+
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.12;
 }
 
 .footer .street {
@@ -126,16 +216,9 @@
     color: rgba(255, 255, 255, 0.6);
 }
 
-
-
-/* color of black text #212121 
-color of h1 and background white #FFFFFF;
-background button and logo blue #2196F3;
-color of logo black #000000;
-color of p grey #757575;
-color of footer color: rgba(255, 255, 255, 0.6);
-background white #F5F5F5;
-background hero section #2F303A;
-*/
-/* bcg portfolio filters grey #F5F4FA;
-bcg portfolio filters blue by hover #2196F3 */
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}

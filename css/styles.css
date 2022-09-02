@@ -2,14 +2,20 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --black-background-color: #2F303A;
+
 }
 
-.page {
-    background-color: #F5F5F5;
+body {
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color);
 
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .logo {
@@ -56,6 +62,11 @@
     color: var(--accent-color);
 }
 
+.site-nav .studio,
+.site-nav .portfolio {
+    color: var(--accent-color);
+}
+
 /* Contacts */
 
 .contacts .link {
@@ -76,6 +87,10 @@
 
 /* Hero */
 
+.hero {
+    background-color: var(--black-background-color);
+}
+
 .hero-title {
     color: #FFFFFF;
 
@@ -87,13 +102,9 @@
     text-transform: uppercase;
 }
 
-.hero {
-    background-color: #2F303A;
-}
-
 .btn {
     background-color: var(--accent-color);
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 
     cursor: pointer;
 
@@ -123,21 +134,18 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
-    text-align: center;
 }
 
 .photos .title {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
 }
 
 .photos .photos-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
-    text-align: center;
 }
 
 .section {
@@ -153,26 +161,22 @@
     text-transform: uppercase;
 }
 
-.advantage .text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-}
-
 .photos .title {
     color: var(--title-text-color);
 
 }
 
 .section-team {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background-color);
 }
 
 .filter {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background-color);
+    color: var(--title-text-color);
 
     cursor: pointer;
 
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -180,7 +184,7 @@
 
 .filter:hover,
 .filter:focus {
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .projects .projects-title {
@@ -209,11 +213,11 @@
 /* Footer */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--black-background-color);
 }
 
 .footer-studio {
-    color: #FFFFFF;
+    color: var(--primary-background-color);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -223,16 +227,15 @@
     text-decoration: none;
 }
 
-.footer .street {
-    color: #FFFFFF;
-
-    text-decoration: none;
-}
-
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
 
     text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--primary-background-color);
 }
 
 .address {

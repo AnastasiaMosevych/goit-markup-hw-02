@@ -19,6 +19,8 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.12;
+
+    text-decoration: none;
 }
 
 .studio {
@@ -28,6 +30,8 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.12;
+
+    text-decoration: none;
 }
 
 .list {
@@ -43,6 +47,8 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -59,6 +65,8 @@
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
+    text-decoration: none;
 }
 
 .contacts .link:hover 
@@ -206,14 +214,20 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.12;
+
+    text-decoration: none;
 }
 
 .footer .street {
     color: #FFFFFF;
+
+    text-decoration: none;
 }
 
 .footer .link {
     color: rgba(255, 255, 255, 0.6);
+
+    text-decoration: none;
 }
 
 .address {

@@ -104,6 +104,11 @@
     letter-spacing: 0.06em;
 }
 
+.btn:active {
+    color: #2F303A;
+}
+
+
 .contacts .link:hover,
 .contacts .link:focus {
     color: var(--accent-color);

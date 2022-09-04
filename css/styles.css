@@ -2,9 +2,9 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-background-color: #FFFFFF;
-    --secondary-background-color: #F5F4FA;
-    --black-background-color: #2F303A;
+    --primary-background-color: #F5F4FA;
+    --secondary-background-color: #2F303A;
+    --logo-color: #000000;
 
 }
 
@@ -30,7 +30,7 @@ body {
 }
 
 .studio {
-    color: #000000;
+    color: var(--logo-color);
 
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -88,7 +88,7 @@ body {
 /* Hero */
 
 .hero {
-    background-color: var(--black-background-color);
+    background-color: var(--secondary-background-color);
 }
 
 .hero-title {
@@ -167,11 +167,11 @@ body {
 }
 
 .section-team {
-    background-color: var(--secondary-background-color);
+    background-color: var(--primary-background-color);
 }
 
 .filter {
-    background-color: var(--secondary-background-color);
+    background-color: var(--primary-background-color);
     color: var(--title-text-color);
 
     cursor: pointer;
@@ -213,7 +213,7 @@ body {
 /* Footer */
 
 .footer {
-    background-color: var(--black-background-color);
+    background-color: var(--secondary-background-color);
 }
 
 .footer-studio {
@@ -239,7 +239,7 @@ body {
 }
 
 .address {
-    font-style: normal;
+    font-style: inherit;
     font-size: 14px;
     line-height: 1.7;
 }
